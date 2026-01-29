@@ -1,17 +1,17 @@
-# Job Market Analytics Pipeline & Dashboard ✅
+# Job Market Analytics Pipeline & Dashboard 
 
 Professional end-to-end portfolio project showing an ETL pipeline that extracts job postings, cleans and stores them, and exposes a deployed interactive dashboard.
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 **Goal:** Build a data pipeline that extracts real job postings, transforms and stores them in a database, and visualizes insights via an interactive dashboard.
 
 **Tech stack:** Python (requests, pandas, BeautifulSoup), Streamlit, SQLAlchemy, SQLite/Postgres, Docker, GitHub Actions.
 
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 job-analytics-pipeline/
@@ -40,7 +40,7 @@ job-analytics-pipeline/
 
 ---
 
-## 🎯 Quickstart — Local (recommended)
+## Quickstart — Local (recommended)
 
 1. Create a virtual environment and install dependencies
 
@@ -70,7 +70,7 @@ streamlit run dashboard/app.py
 
 ---
 
-## 🐳 Quickstart — Docker
+## Quickstart — Docker
 
 Build and run with Docker Compose:
 
@@ -81,26 +81,26 @@ docker-compose up --build
 
 ---
 
-## ☁️ Deploying (Free Hosting options)
+## Deploying (Free Hosting options)
 
 - Streamlit Community Cloud: Push repo to GitHub, create a new app in Streamlit Cloud pointing to `dashboard/app.py`. Ensure `requirements.txt` is present.
 - Render / Railway: Build Docker image with provided `docker/Dockerfile` and deploy.
 
 
-## ✅ CI
+## CI
 
 GitHub Actions workflow runs `pytest` on push/pull requests to `main` branch — see `.github/workflows/ci.yml`.
 
 ---
 
-## 🧭 Database schema & Analytics
+## Database schema & Analytics
 
 - Initialize DB: `sqlite:///data/jobs.db` is used by default. Schema at `database/schema.sql`.
 - Pre-written queries in `database/queries.sql` for quick analysis (top skills, salary stats, etc.).
 
 ---
 
-## 🧪 Running tests
+## Running tests
 
 ```bash
 pytest -q
@@ -108,7 +108,7 @@ pytest -q
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 > **Add screenshots here** after you run the dashboard. Example placeholders:
 >
@@ -117,14 +117,14 @@ pytest -q
 
 ---
 
-## 📝 Notes
+## Notes
 
 - The extractor uses the public Remotive API (no key) — it's ethical to use for this demo.
 - For production, add rate-limiting, job deduplication policies, and robust monitoring.
 
 ---
 
-## 🧩 Next improvements (ideas)
+## Next improvements (ideas)
 
 - Normalize skills into a separate table for better analytics
 - Add incremental runs and Airflow / Prefect orchestration
@@ -132,14 +132,7 @@ pytest -q
 
 ---
 
-## 📄 License
-
-Use an appropriate license for your portfolio (e.g., MIT).
 
 
----
 
-If you want, I can also:
-- Add a GitHub Actions step to automatically deploy to Streamlit Cloud
-- Create a demo README with screenshots after you run the pipeline
 
