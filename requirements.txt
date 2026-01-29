@@ -1,0 +1,10 @@
+requests
+beautifulsoup4
+pandas
+python-dateutil
+sqlalchemy
+psycopg2-binary
+streamlit
+altair
+plotly
+pytest

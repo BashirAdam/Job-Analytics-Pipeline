@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+.env.*
+
+# Data
+data/
+*.db
+
+# VSCode
+.vscode/
+
+# Pytest
+.pytest_cache/
+
+# Docker
+docker-compose.override.yml
+
+# Mac
+.DS_Store
